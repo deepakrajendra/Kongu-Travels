@@ -1,0 +1,25 @@
+<!--
+  Generated template for the MainPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Rides</ion-title>
+    <ion-buttons end>
+    <button ion-button (click)='logOut()' right>Logout</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-list>
+  <ion-item *ngFor='let ride of rides' (click)='rideDetails(ride)'>
+    {{ride.from}}--{{ride.to}}
+  </ion-item>
+</ion-list>
+</ion-content>

@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="log" (ngSubmit)="login()">
+
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input type="text" formControlName='userName'></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" formControlName='password'></ion-input>
+  </ion-item>
+<ion-item>
+<button ion-button block type='submit' [disabled]="!log.valid">Login</button>
+</ion-item>
+</form>
+</ion-content>

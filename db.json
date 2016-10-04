@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Deepak",
+      "location": "Mettukupam",
+      "car": "Indica",
+      "color": "white"
+    },
+    {
+      "id": 2,
+      "name": "Deepak1",
+      "location": "Anna Nagar",
+      "car": "Swift",
+      "color": "Grey"
+    }
+  ],
+  "rides": [
+    {
+      "id": 1,
+      "company": "Cognizant",
+      "from": "Mettukupam",
+      "to": "Cognizant CKC",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "company": "TCS",
+      "from": "Thoriapakkam",
+      "to": "Koembedu",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "company": "Wipro",
+      "from": "Shollinganallur",
+      "to": "Sipcot",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment from author",
+      "votes": 20,
+      "postId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment from visitor",
+      "votes": 15,
+      "postId": 1,
+      "userId": 2
+    }
+  ]
+}
