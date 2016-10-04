@@ -1,6 +1,6 @@
 # Kongu-Travels
 
-1) Clone the repp: git clone 
+1) Clone the repp: git clone https://github.com/deepakrajendra/Kongu-Travels.git
 
 2)Run- npm install
 
